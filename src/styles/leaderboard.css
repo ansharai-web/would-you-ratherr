@@ -1,0 +1,92 @@
+.user__rank {
+    width: 500px;
+    height: 130px;
+    margin: 10px auto;
+    display: flex;
+    border: 1px solid #ddd;
+
+}
+.user__rank--info {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    margin: auto;
+}
+.user__rank--info h5 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.user__rank--questions {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 5px 10px;
+}
+.user__rank--answered {
+    border-bottom: 1px solid #ddd;
+
+}
+
+.user__rank--avatar {
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.user__rank--avatar img {
+    max-width: 80%;
+    height: 80%;
+}
+.user__rank--score {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.user__rank--scorebox {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd
+}
+
+.user--rank--scoreText {
+    width: 100%;
+    height: 35%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user--rank--scoreBadge {
+    width: 30px!important;
+    height: 30px!important;
+    background-color: turquoise;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.user__rank--triangle{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 35px 0 0;
+    border-color: turquoise transparent transparent transparent;
+}
+.user__rank--place {
+    position: absolute;
+    top: 2px;
+    left: 4px
+}

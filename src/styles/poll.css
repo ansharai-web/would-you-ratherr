@@ -1,0 +1,116 @@
+.poll__result__card {
+ border: 1px solid #ddd;
+height: 320px;
+}
+.poll__result {
+    display: flex;
+    align-items: center;
+    height: 85%;
+
+}
+.poll___result--header {
+height: 15%;
+background-color: #ddd;
+}
+.poll___result--avatar {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poll___result--avatar img {
+    width: 80%;
+    height: auto;
+}
+.poll___result--body {
+    width: 70%;
+    height: 90%;
+    border-left: 1px solid #ddd;
+    margin: auto;
+    padding-left: 10px;
+    position: relative;
+}
+
+.poll___result--body h5 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.poll___result--poll {
+    border:1px solid #ddd;
+    background-color: #ddd;
+    margin: 7px auto ;
+    width: 90%;
+}
+.poll___result--poll p {
+    text-align: start;
+    padding-left: 10px;
+    color: black;
+}
+.poll___result--poll p::after {
+    content: ' ?';
+}
+.poll__result__percentage {
+    width: 90%;
+    background: white;
+    margin: auto;
+    border-radius: 10px;
+    height: 20px;
+}
+.poll___result--poll span {
+    color: black;
+}
+
+.poll__result--chosen {
+    border:1px solid turquoise;
+    background-color: #2dbfb030;
+    width: 90%;
+    margin:auto;
+}
+
+.poll__result--chosen p {
+    color: turquoise;
+    font-weight: bold;
+}
+
+.ask__question {
+    height: 200px;
+    border:1px solid #ddd;
+}
+.ask__question__header {
+    height: 15%;
+    background-color: #ddd;
+}
+.ask__question--card {
+    display: flex;
+    height: 85%;
+}
+
+.ask__question--avatar {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ask__question--avatar img {
+    width: 80%;
+}
+.ask__question--details {
+    height: 85%;
+    width: 70%;
+    border-left: 1px solid #ddd;
+    margin: auto;
+    text-align: start;
+    padding-left: 20px;
+}
+.ask__question--details h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.reset__input {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}

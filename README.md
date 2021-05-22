@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `Available paths:` 
+/ --- Home paths here will be displayed all the questions <br/>
+/signin --- This is the path where the user can log in <br/>
+/leaderboard --- This is the path where the user can see the leaderboard <br/>
+/add --- Here the user will create a new question <br/>
+/question/:id --- Here you can answer to the question or see the results of the poll 
+
+To log out please click the button log out ! 

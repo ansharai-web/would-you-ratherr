@@ -3,10 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+import { applyMiddleware, createStore } from 'redux';
+import thunk from 'redux-thunk';
+import { rootReducer } from './reducers';
+import { BrowserRouter, Switch } from 'react-router-dom';
+
+const store = createStore(rootReducer, applyMiddleware(thunk))
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Provider store={store}>
+          <BrowserRouter>
+              <Switch>
+                 <App />
+          </Switch>
+      </BrowserRouter>
+      </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

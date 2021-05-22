@@ -1,0 +1,22 @@
+.navigation {
+    width: 100%;
+    background-color: #ddd;
+    padding-top: 35px;
+}
+nav {
+    width: 35%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+a {
+    color : black;
+    text-decoration: none   ;
+}
+.trapezoid {
+    border-bottom: 25px solid turquoise;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: fit-content;
+}
